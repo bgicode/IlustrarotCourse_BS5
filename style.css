@@ -1,0 +1,475 @@
+* {
+	box-sizing: border-box;
+}
+
+/* roboto */
+@font-face {
+	font-family: "Roboto-Italic";
+	src: url(fonts/Roboto-Italic.ttf);
+}
+
+@font-face {
+	font-family: "Roboto-Medium";
+	src: url(fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+	font-family: "Roboto-Regular";
+	src: url(fonts/Roboto-Regular.ttf);
+}
+
+/* Philosopher */
+@font-face {
+	font-family: "Philosopher-Regular";
+	src: url(fonts/Philosopher-Regular.ttf);
+}
+
+@font-face {
+	font-family: "Philosopher-Bold";
+	src: url(fonts/Philosopher-Bold.ttf);
+}
+
+.header{
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+.links_wraper {
+	height: 100px;
+	background-color: #008daa !important;
+	color: white;
+	display: flex;
+    justify-content: center; 
+    align-items: center; 
+	box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.28);
+	
+}
+
+a:hover{
+	cursor: pointer;
+}
+
+.align-middle{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.link_1{
+	color: #d4d0c8;
+}
+
+.link_1:hover {
+	color: white !important;
+}
+
+.smmlinks{
+	height: 30px;
+	width: 30px;
+	background-size: cover;
+}
+
+.social_1{
+	background-image: url(img/vk-gray.png);
+}
+
+
+.social_2{
+	background-image: url(img/fb-gray.png);
+}
+
+.social_3{
+	background-image: url(img/tw-gray.png);
+}
+
+.social_4{
+	background-image: url(img/inst-gray.png);
+}
+
+
+.social_1:hover{
+	background-image: url(img/vk-white.png);
+}
+
+
+.social_2:hover{
+	background-image: url(img/fb-white.png);
+}
+
+.social_3:hover{
+	background-image: url(img/tw-white.png);
+}
+
+.social_4:hover{
+	background-image: url(img/inst-white.png);
+}
+
+.section_1 {
+	padding-top: 175px ;
+	padding-bottom: 400px;
+	background-color: #eeeeed;
+	
+}
+
+.cont_2 {
+	position: relative;
+}
+.cont_2 img {
+	position: absolute;
+	width: 70%;
+	margin-left: -5%;
+	top: 100px;
+}
+
+.round {
+	background-color: #06bac5;
+	width: 7px;
+	height: 7px;	
+	border-radius: 5px;
+	margin: auto;	
+}
+
+.navbar{
+	font-size: 18px;
+	
+}
+
+.header {
+	background-color: #eeeeed;
+	font-family: "Roboto-Regular";
+}
+
+.nav-link{
+	color: #06bac5 !important;
+}
+
+.title_1 {	
+	font-size: 3.2vw;
+  white-space: nowrap;
+	font-family: "Philosopher-Regular";
+	line-height: 120px;
+	color: #005c7b;
+}
+
+.text_2{
+	font-size: 24px;
+	font-family: "Roboto-Medium";
+	color: #005c7b;
+}
+
+.btn_1 {
+	background-color: #005c7b;
+	font-family: "Roboto-Regular";
+	border: 0;
+	border-radius: 50px;
+	width: 317px;
+	height: 60px;
+	font-size: 30px;
+}
+
+.btn_1:hover {
+	background-color: #eb477b;
+}
+
+.h_1 {
+	font-family: "Philosopher-Bold";
+	font-size: 60px;
+	line-height: 300px;
+	text-align: center;
+	color: #005c7b;
+}
+
+.info p{
+	font-family: "Roboto-Regular";
+	color: #005c7b;
+	font-size: 24px;
+}
+
+.info_icon_2, .info_icon_1, .info_icon_3 {
+	width: 97px;
+	height: 97px;
+}
+.info_icon_1{
+	background-image: url(img/icons8-диплом-2-100.png);
+	background-size: cover;
+}
+
+.info_icon_2{
+	background-image: url(img/icons8-шапка-выпускника-100.png);
+	background-size: cover;
+}
+
+.info_icon_3{
+	background-image: url(img/price.png);
+	background-size: cover;
+}
+
+.info_title p {
+	margin-bottom: 0;
+	font-family: "Philosopher-Regular";
+	font-size: 30px;
+	color: #005c7b;
+	line-height: 90px;
+}
+
+.info_about p {	
+	font-family: "Roboto-Regular";
+	font-size: 18px;
+	color: #008daa;	
+}
+
+.section_2 {
+	padding-bottom: 215px;
+}
+
+.section_3 {
+	background-color: #eeeeed;
+	padding-bottom: 300px;
+}
+
+.av_icon {
+	background-image: url(img/checkbox.png);
+	background-size: cover;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+}
+
+.advantage {
+	font-family: "Roboto-Regular";
+	font-size: 30px;
+	color: #005c7b;
+}
+
+.section_4 {
+	padding-bottom: 300px;
+
+}
+
+.accordion-button{
+	border: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+	
+	background-color: white;
+	box-shadow: none !important;
+	color: #008daa;
+}
+
+.accordion-button:focus {
+	z-index: 3;
+	border: none;
+	border-color: white;
+	outline: 0;
+	box-shadow: none !important;
+}
+
+.accordion-button::before {
+	flex-shrink: 0;
+	width: 1.25rem;
+	height: 1.25rem;
+	margin-left: auto;
+	content: "";
+	background-image: url(img/thri.png);
+	background-repeat: no-repeat;
+	background-size: 1.25rem;
+	transition: transform .2s ease-in-out;
+	margin-right: 21px;
+}
+
+.accordion-button:not(.collapsed)::before {
+	background-image: url(img/thri.png);
+	transform: rotate(-180deg);
+}
+
+.accordion-button::after {
+	display: none;
+}
+
+
+
+.accordion-button {
+	width: auto !important;
+	font-family: "Philosopher-Bold";
+	font-size: 24px;
+	color: #008daa;
+}
+
+.accordion-body{
+	font-family: "Roboto-Italic";
+	font-size: 18px;
+	color: #005c7b;
+}
+
+.question, .question_link {
+	text-align: center;
+	font-size: 36px;
+	font-family: "Philosopher-Bold";
+	line-height: 80px;
+}
+
+.question {
+	color: #008daa;
+}
+
+.question_link {
+	color: #005c7b !important;	
+}
+
+.section_5 {
+	background-color: #eeeeed;
+	padding-bottom: 250px;
+}
+
+.avatar {
+	width: 120px;
+	height: 120px;
+	border-radius: 100px;
+	background-image: url(img/voroncova.jpg);
+	background-size: cover;
+	margin: auto;
+}
+
+.name {
+	text-align: center;
+	font-family: "Philosopher-Regular";
+	font-size: 30px;
+	color: #008daa;
+	margin-top: 25px;	
+}
+
+.feedback {
+	text-align: justify;
+	font-family: "Roboto-Italic";
+	font-size: 18px;
+	color:#005c7b;
+}
+
+.carousel-control-next-icon {
+	background-image: url(img/next.png);	
+	margin-top: -250px;
+	width: 40px;
+	height: 40px;
+}
+
+.carousel-control-prev-icon {
+	background-image: url(img/prev.png);	
+	margin-top: -250px;
+	width: 40px;
+	height: 40px;
+}
+
+.contact_text {
+	font-family: "Roboto-Medium";
+	font-size: 30px;
+	color: #005c7b;
+	text-align: left;
+}
+
+.contact_link {
+	font-family: "Roboto-Medium";
+	font-size: 30px;
+	color:#008daa;
+	text-align: right;
+}
+
+a:hover {
+	color: #eb477b;
+}
+
+
+.smm_text {
+	font-family: "Roboto-Medium";
+	font-size: 30px;
+	color: #005c7b;
+	text-align: center;
+}
+
+
+
+.smmlinks_2{
+	height: 60px;
+	width: 60px;
+	background-size: cover;
+}
+
+.social_2_1{
+	background-image: url(img/vk-blue.png);
+}
+
+
+.social_2_2{
+	background-image: url(img/fb-blue.png);
+}
+
+.social_2_3{
+	background-image: url(img/tw-blue.png);
+}
+
+.social_2_4{
+	background-image: url(img/inst-blue.png);
+}
+
+
+.social_2_1:hover{
+	background-image: url(img/vk-pink.png);
+}
+
+
+.social_2_2:hover{
+	background-image: url(img/fb-pink.png);
+}
+
+.social_2_3:hover{
+	background-image: url(img/tw-pink.png);
+}
+
+.social_2_4:hover{
+	background-image: url(img/inst-pink.png);
+}
+
+.section_6 {
+	padding-bottom: 200px;
+}
+
+footer {	
+	background-color: #005c7b;
+	font-family: "Roboto-Regular";
+	color: #eeeeed;
+	font-size: 24px;	
+}
+.politic {
+	color: #eeeeed;	
+}
+
+.ancker{
+	width: 100%;
+	position: relative;
+	top: -175px;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
